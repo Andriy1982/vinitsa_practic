@@ -134,7 +134,7 @@ body {
     background-repeat: no-repeat;
 
 }
-.section-titel {
+.design-titel {
     font-size: 16px;
     font-family: 'Exo', sans-serif;
     color: rgb(255, 109, 109);
@@ -143,7 +143,7 @@ body {
     text-transform: uppercase;
     font-weight: 400;
   }
-  .section-paragraf {
+  .design-paragraf {
       margin-bottom: 54px;
         font-size: 40px;
         font-family: 'Myriad Pro' ,sans-serif ; 
@@ -151,7 +151,7 @@ body {
         line-height: 50px;
         letter-spacing: 1.6px;   
   }
-  .section-description {
+  .design-description {
         font-size: 16px;
         font-family: 'Myriad Pro' ,sans-serif ;
         color: rgba(40, 40, 40, 0.659);
@@ -162,3 +162,153 @@ body {
   .wraper {
       width: 585px;
   }
+
+  /* SECTION_2 */
+  .features {
+      padding-top: 120px;
+      padding-bottom: 180px;
+      background-image: url(/image/section3_bg.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+    background-size: cover;
+}
+  
+.features-titel {
+    font-size: 16px;
+    font-family: 'Myriad Pro' ,sans-serif ;
+    color: rgb(255, 109, 109);
+    line-height: 3.125;
+    text-align: center;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.feature-paragraf {
+    margin-bottom: 90px;
+    font-size: 40px;
+    font-family: 'Myriad Pro' ,sans-serif ;
+    color: rgb(40, 40, 40);
+    line-height: 1.25;
+    text-align: center;
+    letter-spacing: 1.6px;
+}
+
+.feature_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+  .feature_list-item {
+      width: 360px;
+      padding: 0 10px;
+      text-align: center;
+      /* background-color: blue; */
+  }
+
+  /* .feature_list-item:not(:last-child) {
+      margin-right: 30px;
+  } */
+
+
+  .feature_list-item::before {
+      display: block;
+      content: " ";
+      width: 67px;
+      height: 67px;
+      margin: 0 auto;
+      margin-bottom: 34px;
+  }
+
+  .feature_list-item:first-child::before {
+    background-image: url(/image/icon/picture.png);
+  }
+
+  .feature_list-item:nth-child(2)::before {
+    background-image: url(/image/icon/plane.png);
+  }
+
+  .feature_list-item:last-child::before {
+    background-image: url(/image/icon/bulb.png);
+  }
+      
+  
+
+
+
+  .feature_list-titel {
+        margin-bottom: 6px;
+        font-weight: 500;
+        font-size: 22px;
+        font-family: 'Exo', sans-serif;
+        color: rgb(40, 40, 40);
+        line-height: 2.271;
+        text-align: center;
+        letter-spacing: 0.88px;  
+  }
+
+  .feature_list-description {
+        font-size: 16px;
+        font-family: 'Exo', sans-serif;
+        color: rgba(40, 40, 40, 0.659);
+        line-height: 1.625;
+        text-align: center; 
+        letter-spacing: 0.64px; 
+  }
+
+  /* SECTION-CLIENTS */
+  .clients {
+
+          background-image: linear-gradient( rgba(0, 0, 0 ,0.8), rgba(0, 0, 0 ,0.8)), url(/image/Group_4.jpg) ;
+            
+  }
+
+  .clients_list {
+      display: flex;
+      justify-content: space-between;
+  }
+
+
+.clients_list-item {
+    width: 360px;
+}
+
+
+.clients_list-item::before {
+    display: block;
+    margin: 0 auto;
+    content: " ";
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(29, 30, 36);
+    background-color: rgb(78, 78, 94);
+    width: 80px;
+    height: 80px;
+}
+ .clients-name {
+        font-size: 22px;
+        font-family: 'Exo', sans-serif;
+        color: rgb(255, 255, 255);
+        line-height: 2.271;
+        text-align: center;
+       font-weight: 500;
+      }
+      
+      .clients-founder {
+        font-size: 16px;
+        font-family: 'Exo', sans-serif;
+        color: rgb(255, 109, 109);
+        line-height: 3.125;
+        text-align: center;
+          }
+      
+  .clients-description {
+        font-size: 16px;
+        font-family: 'Exo', sans-serif;
+        color: rgba(255, 255, 255, 0.659);
+        font-style: italic;
+        line-height: 1.625;
+        text-align: center;
+  }
+  
